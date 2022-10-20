@@ -9,4 +9,6 @@ const birthCity = 'Curitiba';
 let birthYear = 2000;
 birthYear = 2030;
 
-console.log(birthYear);
+//console.log(birthYear);
+
+const base = 5;
