@@ -218,32 +218,32 @@ let status = 'aprovado';
 // }
 
 //11
-let salarioBruto = 2000.00;
-let aliquotaInss = '';
-let aliquotaIR = '';
+// let salarioBruto = 2000.00;
+// let aliquotaInss = '';
+// let aliquotaIR = '';
 
-if(salarioBruto <= 1556.94){
-    aliquotaInss = salarioBruto * 0.08;
-} else if(salarioBruto <= 2594.92){
-    aliquotaInss = salarioBruto * 0.09;
-} else if(salarioBruto <= 5189.82){
-    aliquotaInss = salarioBruto * 0.11;
-} else {
-    aliquotaInss = 570.88;
-}
+// if(salarioBruto <= 1556.94){
+//     aliquotaInss = salarioBruto * 0.08;
+// } else if(salarioBruto <= 2594.92){
+//     aliquotaInss = salarioBruto * 0.09;
+// } else if(salarioBruto <= 5189.82){
+//     aliquotaInss = salarioBruto * 0.11;
+// } else {
+//     aliquotaInss = 570.88;
+// }
 
-const baseSalarial = salarioBruto - aliquotaInss;
+// const baseSalarial = salarioBruto - aliquotaInss;
 
-if(baseSalarial <= 1903.98){
-    aliquotaIR = 0;
-} else if(baseSalarial <= 2826.65){
-    aliquotaIR = (baseSalarial * 0.075) - 142.80;
-} else if(baseSalarial <= 3751.05){
-    aliquotaIR = (baseSalarial * 0.15) - 354.80;
-} else if(baseSalarial <= 4664.68){
-    aliquotaIR = (baseSalarial * 0.225) - 636.13;
-} else {
-    aliquotaIR = (baseSalarial * 0.275) - 869.36;
-};
+// if(baseSalarial <= 1903.98){
+//     aliquotaIR = 0;
+// } else if(baseSalarial <= 2826.65){
+//     aliquotaIR = (baseSalarial * 0.075) - 142.80;
+// } else if(baseSalarial <= 3751.05){
+//     aliquotaIR = (baseSalarial * 0.15) - 354.80;
+// } else if(baseSalarial <= 4664.68){
+//     aliquotaIR = (baseSalarial * 0.225) - 636.13;
+// } else {
+//     aliquotaIR = (baseSalarial * 0.275) - 869.36;
+// };
 
-console.log("Salário: " + (baseSalarial - aliquotaIR));
+// console.log("Salário: " + (baseSalarial - aliquotaIR));
