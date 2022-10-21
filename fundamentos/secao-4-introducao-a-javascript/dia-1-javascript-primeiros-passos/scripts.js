@@ -64,7 +64,7 @@ else {
 
 let status = 'aprovado';
 
-switch (status) {
+/*switch (status) {
     case 'aprovado':
         console.log('Parabéns, você foi aprovado(a)!');
         break;
@@ -79,4 +79,14 @@ switch (status) {
 
     default:
         console.log('Informação incorreta');
-}
+}*/
+
+const a = 4;
+const b = 8;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+
